@@ -109,7 +109,7 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
+    color: #f05230;
     background: color(var(--darkgrey) l(-5%)) no-repeat center center;
     background-size: cover;
 }
@@ -1467,7 +1467,8 @@ Usage (In Ghost editor):
 }
 
 .floating-header-share-tw,
-.floating-header-share-fb {
+.floating-header-share-fb,
+.floating-header-share-ln {
     display: block;
     align-items: center;
     width: 60px;
@@ -1484,6 +1485,10 @@ Usage (In Ghost editor):
 
 .floating-header-share-fb {
     background: #005e99;
+}
+
+.floating-header-share-ln {
+    background: #0077B5;
 }
 
 .progress {
@@ -1852,7 +1857,7 @@ Usage (In Ghost editor):
     position: relative;
     padding-top: 20px;
     padding-bottom: 60px;
-    color: #fff;
+    color: #f05230;
     background: color(var(--darkgrey) l(-15%));
 }
 
